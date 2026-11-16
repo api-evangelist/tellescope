@@ -64,5 +64,117 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Tellescope is a company surfaced via the API Evangelist harvest backlog (source: new-submission) and added to the network as a stub for full-pipeline profiling.
-- https://tellescope.com/
+Tellescope provides a digital health platform for modern healthcare organizations, offering integrated EHR connectivity, patient intake, relationship management, telehealth, workflow automation, and a white‑label telemedicine solution. The platform includes an API‑first architecture enabling developers to build custom integrations, automate scheduling, messaging, and patient engagement while maintaining HIPAA compliance.
+
+**Areas:** Digital Health · Patient Intake · EHR Integration · Telemedicine · Workflow Automation · Healthcare CRM
+
+## Tellescope on APIs.io
+
+Everything profiled for Tellescope is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/tellescope/](https://apis.io/providers/tellescope/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [Tellescope API](https://apis.io/apis/tellescope/tellescope-api-2/) — API for Tellescope digital health platform, providing endpoints for analytics, organization, and API key management.
+- [Tellescope API](https://apis.io/apis/tellescope/tellescope-api/) — Tellescope API as documented publicly: 96 operations. Contract generated from the documentation by API Evangelist (2026-11-15); not the provider's own document.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [PostV1AiConversationsAgentMessageRequest](https://apis.io/schemas/tellescope/tellescope-post-v1-ai-conversations-agent-message-request/)
+- [PostV1AnalyticsFrameRequest](https://apis.io/schemas/tellescope/tellescope-post-v1-analytics-frame-request/)
+- [PostV1AppointmentBookingPageRequest](https://apis.io/schemas/tellescope/tellescope-post-v1-appointment-booking-page-request/)
+- [PostV1AppointmentLocationRequest](https://apis.io/schemas/tellescope/tellescope-post-v1-appointment-location-request/)
+- [PostV1AutomationTriggerRequest](https://apis.io/schemas/tellescope/tellescope-post-v1-automation-trigger-request/)
+- [PostV1AvailabilityBlockRequest](https://apis.io/schemas/tellescope/tellescope-post-v1-availability-block-request/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Tellescope Context](https://apis.io/jsonld/tellescope/tellescope-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Tellescope API Rules](https://apis.io/rules/tellescope/tellescope-rules/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Tellescope Domain Security](https://apis.io/security/tellescope/tellescope-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.tellescope.com/)
+- [Documentation](https://docs.tellescope.com/api-documentation)
+- [API reference](https://docs.tellescope.com/api-documentation)
+- [Blog](https://www.tellescope.com/blog)
+- [Trust centre](https://trust.tellescope.com/)
+- [Terms of service](https://docs.tellescope.com/legal/terms-of-service)
+- [Privacy policy](https://www.tellescope.com/privacy-policy)
+- [GitHub](https://github.com/tellescope)
+
+## API Evangelist rating
+
+**Kin Score 38.3** — thin · rubric 0.28.0 · scored 2026-11-15
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 45.6 |
+| Contract governance | 79.1 |
+| Operational transparency | 4.8 |
+| Developer ergonomics | 26.2 |
+| Access clarity | 23.4 |
+
+**Agent readiness 16.1** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 14.1** — Health
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/tellescope/](https://apis.io/providers/tellescope/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Tellescope: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/tellescope/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
